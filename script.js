@@ -43,16 +43,8 @@ console.log(calculator(mult, 24))
 console.log(calculator(mult, 16))
 console.log(calculator(mult, 15))
 console.log(calculator(mult, 2))
-console.log(calculator(mult, 2))
 
 console.log(`size: ${cache.size}`)
 console.log(cache)
 
-// var arr = ['a', 'b', 'c'];
-// console.log(Object.keys(arr));
 
-// var obj = { 0: 'a', 1: 'b', 2: 'c' };
-// console.log(Object.keys(obj)); // консоль: ['0', '1', '2']
-
-// var an_obj = { 100: 'a', 2: 'b', 7: 'c' };
-// console.log(Object.keys(an_obj)); // консоль: ['2', '7', '100']
