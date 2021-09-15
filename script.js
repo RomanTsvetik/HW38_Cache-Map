@@ -15,16 +15,16 @@ function calculator(func, ...args) {
 		return cache.get(...args);
 	}
 	else {			
-        let result = func(...args);
-        
-        if (cache.size >= size) {
-            let deletedEl = [...cache.keys()].shift();
-            cache.delete(deletedEl);						
+		let result = func(...args);
+
+		if (cache.size >= size) {
+		    let deletedEl = [...cache.keys()].shift();
+		    cache.delete(deletedEl);						
 		}
-		
-		cache.set(...args, result);
-		
-		return result;	
+
+	cache.set(...args, result);
+
+	return result;	
 	}	
 }
 
